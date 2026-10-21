@@ -54,7 +54,10 @@ def main():
     with open("data/capitals.csv") as f:
         rows = list(csv.DictReader(f))
 
-    dest_rows = [row for row in rows if row["capital"] != ORIGIN_CITY]
+    dest_rows = [
+        row for row in rows
+        if row["capital"].strip().casefold() != ORIGIN_CITY.casefold()
+    ]
     lats = [float(row["lat"]) for row in dest_rows]
     lons = [float(row["lon"]) for row in dest_rows]
 
