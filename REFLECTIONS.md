@@ -41,5 +41,20 @@ If a 27th capital were added, the temperature of the others capital won't change
 However, the normalized score could change because the highest and lowest value would change.
 The KPI is based on the normalized value so its influenced by the measurement. 
 
+> **Reflection — predict, then check:** based on the personal weighting you wrote
+> down at the very start of this TD, which capital do you *predict* will come out
+> on top once you run this script for real? Write the city name and one sentence of
+> reasoning now, before you run anything.
 
+I predict that Lisbon will be ranked among the top destinations because it often has
+sunny weather and warm temperatures.
+
+> **Reflection — was your prediction right?** Compare the real top-ranked capital
+> to what you predicted in Stage 3. If they match, what does that tell you about how
+> well you understood the 50/50 formula? If they don't match, what surprised you —
+> was it the weather data, the distance, or the formula itself?
+
+I predicted Lisbon and the top-ranked is Rome, although Lisbon is second and really 
+close to the score of Rome. I underestimated the impact of the CO² emissions, as 
+Lisbon does not score very well.
 
