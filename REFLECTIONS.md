@@ -58,3 +58,24 @@ I predicted Lisbon and the top-ranked is Rome, although Lisbon is second and rea
 close to the score of Rome. I underestimated the impact of the CO² emissions, as 
 Lisbon does not score very well.
 
+> **Reflection — monitoring (CM4):** GitHub automatically disables a scheduled
+> workflow after 60 days with no repository activity — a real, documented behavior,
+> not a bug. If this dashboard's schedule silently stopped running (or started
+> silently failing every week), what is the *one* thing on the live public page a
+> visitor could look at to notice something was wrong, without checking the Actions
+> tab? Is that signal good enough on its own, or would you add something?
+
+A visitor can check the last updated date displayed on the dashboard to see if the workflow
+has stopped running. I would add a warning message if the data has not been updated from a 
+long time.
+
+> **Reflection — the unguided step:** which file(s) did you change, and why were
+> those the right place(s) to change? And separately: is the "best" destination an
+> absolute fact about these 26 capitals, or does it depend on where you start from?
+> Compare your own top result to a classmate's (different origin city) if you can —
+> did you get the same recommended capital?
+
+I changed the file index.html to change the ideal destination and the origin destination name.
+I changed the file fetch_and_score.py to exclude the origin city from the destinations and 
+changed the origin. I didn't get the same recommended capital because I started from Rome, and
+then recommended is Malta
